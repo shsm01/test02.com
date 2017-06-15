@@ -7,6 +7,6 @@ echo "DIR_SEP: ".DIRECTORY_SEPARATOR;
 
 phpinfo();
 
-phpinfo(INFO_MODULES);
+// phpinfo(INFO_MODULES);
 
 ?>
