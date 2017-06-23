@@ -152,7 +152,7 @@ echo "Категория : ". $type_str ."<br>";
      if ( in_array( $field[ 'id' ], [ 1210 ]))       echo "Выгрузка на YANDEX.SU: ".$field[ 'value' ]."<br>";
      if ( in_array( $field[ 'id' ], [ 1213 ]))       echo "Выгрузка на DMIR: ".$field[ 'value' ]."<br>";
      if ( in_array( $field[ 'id' ], [ 1249 ]))       echo "Площадь всего здания (кв.м): ".$field[ 'value' ]."<br>";
-     if ( in_array( $field[ 'id' ], [ 1253 ]))       echo "Х.З.: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 1253 ]))       echo "Выгрузка в json: ".$field[ 'value' ]."<br>";
      if ( in_array( $field[ 'id' ], [ 510 ]))       echo "Фото: ".$field[ 'value' ]."<br>";
     }
 echo "<br><br>";

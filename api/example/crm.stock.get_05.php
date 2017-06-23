@@ -75,7 +75,7 @@ echo "Наименование продукта : ". $item['name'] ."<br>";
 echo "Отметка о публикации продукта : ". $item['publish'] ."<br>";
 echo "Категория : ". $type_str ."<br>";
 
- var_dump ($item[ 'fields' ]);
+// var_dump ($item[ 'fields' ]);
     foreach ( $item[ 'fields' ] as $field ) 
     {
 /*
@@ -127,6 +127,29 @@ echo "Категория : ". $type_str ."<br>";
      if ( in_array( $field[ 'id' ], [ 777 ]))       echo "Тип недвижимости: ".$field[ 'value' ]."<br>";
 */
      if ( in_array( $field[ 'id' ], [ 799 ]))       echo "Тип недвижимости: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 800 ]))       echo "Банковская: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 801 ]))       echo "Возможна ипотека: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 802 ]))       echo "Страна: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 803 ]))       echo "Город: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 804 ]))       echo "Расположение: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 805 ]))       echo "Количество спален: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 806 ]))       echo "Количество ванных: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 807 ]))       echo "Площадь недвижимости (кв.м): ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 808 ]))       echo "Площадь земли: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 809 ]))       echo "Описание: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 810 ]))       echo "Цена: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 811 ]))       echo "Валюта: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 997 ]))       echo "Вид объекта: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 1000 ] )) { 
+            $comma = implode(" , ", $field[ 'value' ]);
+            echo 'Координаты на карте "Яндекс" : ' . $comma ."<br>";
+       }
+     if ( in_array( $field[ 'id' ], [ 1187 ]))       echo "Реклама на доски объявлений: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 1200 ]))       echo "Выгрузка на MOVE.SU.RU: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 1239 ]))       echo "Выгрузка на сайт компании: ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 1240 ]))       echo "Акция (выгодная цена): ".$field[ 'value' ]."<br>";
+     if ( in_array( $field[ 'id' ], [ 885 ]))       echo "Фото: ".$field[ 'value' ]."<br>";
+
 /*
      if ( in_array( $field[ 'id' ], [ 786 ]))       echo "Район области: ".$field[ 'value' ]."<br>";
      if ( in_array( $field[ 'id' ], [ 813 ]))       echo "Выгрузка на сайт компании: ".$field[ 'value' ]."<br>";
